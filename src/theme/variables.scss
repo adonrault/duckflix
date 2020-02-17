@@ -3,6 +3,71 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** duckflix white **/
+  --ion-color-duckflix-white: #ffffff;
+  --ion-color-duckflix-white-rgb: 255, 255, 255;
+  --ion-color-duckflix-white-contrast: #000000;
+  --ion-color-duckflix-white-contrast-rgb: 0, 0, 0;
+  --ion-color-duckflix-white-shade: #ffffff;
+  --ion-color-duckflix-white-tint: #ffffff;
+
+  .ion-color-duckflix-white {
+    --ion-color-base: var(--ion-color-duckflix-white);
+    --ion-color-base-rgb: var(--ion-color-duckflix-white-rgb);
+    --ion-color-contrast: var(--ion-color-duckflix-white-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-duckflix-white-contrast-rgb);
+    --ion-color-shade: var(--ion-color-duckflix-white-shade);
+    --ion-color-tint: var(--ion-color-duckflix-white-tint);
+  }
+  /** duckflix dark **/
+  --ion-color-duckflix-dark: #000000;
+  --ion-color-duckflix-dark-rgb: 0, 0, 0;
+  --ion-color-duckflix-dark-contrast: #ffffff;
+  --ion-color-duckflix-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-duckflix-dark-shade: #000000;
+  --ion-color-duckflix-dark-tint: #1a1a1a;
+
+  .ion-color-duckflix-dark {
+    --ion-color-base: var(--ion-color-duckflix-dark);
+    --ion-color-base-rgb: var(--ion-color-duckflix-dark-rgb);
+    --ion-color-contrast: var(--ion-color-duckflix-dark-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-duckflix-dark-contrast-rgb);
+    --ion-color-shade: var(--ion-color-duckflix-dark-shade);
+    --ion-color-tint: var(--ion-color-duckflix-dark-tint);
+  }
+  /** duckflix red **/
+  --ion-color-duckflix-red: #E50914;
+  --ion-color-duckflix-red-rgb: 229, 9, 20;
+  --ion-color-duckflix-red-contrast: #ffffff;
+  --ion-color-duckflix-red-contrast-rgb: 255, 255, 255;
+  --ion-color-duckflix-red-shade: #ca0812;
+  --ion-color-duckflix-red-tint: #e8222c;
+  
+  .ion-color-duckflix-red {
+    --ion-color-base: var(--ion-color-duckflix-red);
+    --ion-color-base-rgb: var(--ion-color-duckflix-red-rgb);
+    --ion-color-contrast: var(--ion-color-duckflix-red-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-duckflix-red-contrast-rgb);
+    --ion-color-shade: var(--ion-color-duckflix-red-shade);
+    --ion-color-tint: var(--ion-color-duckflix-red-tint);
+  }
+  /** duckflix blue **/
+  --ion-color-duckflix-blue: #0080ff;
+  --ion-color-duckflix-blue-rgb: 0,128,255;
+  --ion-color-duckflix-blue-contrast: #ffffff;
+  --ion-color-duckflix-blue-contrast-rgb: 255,255,255;
+  --ion-color-duckflix-blue-shade: #0071e0;
+  --ion-color-duckflix-blue-tint: #1a8dff;
+  
+  .ion-color-duckflix-blue {
+    --ion-color-base: var(--ion-color-duckflix-blue);
+    --ion-color-base-rgb: var(--ion-color-duckflix-blue-rgb);
+    --ion-color-contrast: var(--ion-color-duckflix-blue-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-duckflix-blue-contrast-rgb);
+    --ion-color-shade: var(--ion-color-duckflix-blue-shade);
+    --ion-color-tint: var(--ion-color-duckflix-blue-tint);
+  }
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

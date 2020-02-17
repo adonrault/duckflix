@@ -1,1 +1,15 @@
+ion-list {
+    --ion-background-color: var(--ion-color-duckflix-dark);
+    ion-item {
+        cursor: pointer;
+        color: #ffffff;
+        border-bottom: 1px solid #222428;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
 
+.logout {
+    cursor: pointer;
+}

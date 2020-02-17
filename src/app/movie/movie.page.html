@@ -1,0 +1,162 @@
+<ion-header>
+  <ion-toolbar color="duckflix-dark">
+    <ion-title>
+      {{name0}}{{name1}}{{name2}}{{name3}}{{name4}}{{name5}}
+      {{name6}}{{name7}}{{name8}}{{name9}}{{name10}}
+      {{name11}}{{name12}}{{name13}}{{name14}}{{name15}}
+      {{name16}}{{name17}}{{name18}}{{name19}}
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="light" (click)="close()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <img class ="overlay bg-img" src="{{ref0}}{{ref1}}{{ref2}}{{ref3}}{{ref4}}{{ref5}}{{ref6}}{{ref7}}{{ref8}}{{ref9}}{{ref10}}{{ref11}}{{ref12}}{{ref13}}{{ref14}}{{ref15}}{{ref16}}{{ref17}}{{ref18}}{{ref19}}">
+    <div class="ion-padding">
+      <div class="img-header">
+        <img src="{{ref0}}{{ref1}}{{ref2}}{{ref3}}{{ref4}}{{ref5}}{{ref6}}{{ref7}}{{ref8}}{{ref9}}{{ref10}}{{ref11}}{{ref12}}{{ref13}}{{ref14}}{{ref15}}{{ref16}}{{ref17}}{{ref18}}{{ref19}}">
+      </div>
+      <div class="tags">
+        <p class="green">
+          Recommandé à {{recommandation0}}{{recommandation1}}{{recommandation2}}
+          {{recommandation3}}{{recommandation4}}{{recommandation5}}
+          {{recommandation6}}{{recommandation7}}{{recommandation8}}
+          {{recommandation9}}{{recommandation10}}{{recommandation11}}{{recommandation12}}
+          {{recommandation13}}{{recommandation14}}{{recommandation15}}{{recommandation16}}
+          {{recommandation17}}{{recommandation18}}{{recommandation19}}
+        </p>
+        <p>
+          {{year0}}{{year1}}{{year2}}{{year3}}{{year4}}{{year5}}{{year6}}
+          {{year7}}{{year8}}{{year9}}{{year10}}{{year11}}{{year12}}
+          {{year13}}{{year14}}{{year15}}{{year16}}{{year17}}
+          {{year18}}{{year19}}
+        </p>
+        <p>
+          {{age0}}{{age1}}{{age2}}{{age3}}{{age4}}{{age5}}{{age6}}{{age7}}
+          {{age8}}{{age9}}{{age10}}{{age11}}{{age12}}{{age13}}{{age14}}
+          {{age15}}{{age16}}{{age17}}{{age18}}{{age19}}
+        </p>
+        <p>
+          {{nbsaison0}}{{nbsaison1}}{{nbsaison2}}{{nbsaison3}}{{nbsaison4}}
+          {{nbsaison5}}{{nbsaison6}}{{nbsaison7}}{{nbsaison8}}{{nbsaison9}}
+          {{nbsaison10}}{{nbsaison11}}{{nbsaison12}}{{nbsaison13}}
+          {{nbsaison14}}{{nbsaison15}}{{nbsaison16}}
+          {{nbsaison17}}{{nbsaison18}}{{nbsaison19}}
+        </p>
+      </div>
+
+      <ion-button expand="block" color="duckflix-red" routerLink="/{{you}}{{thewitcher}}{{thepunisher}}{{strangerthings}}{{narcos}}{{messiah}}{{lucifer}}{{lockandkey}}{{insatiable}}{{elite}}{{dynastie}}{{dracula}}{{breakingbad}}{{blacklightning}}{{bcs}}{{arrow}}{{alteredcarbon}}{{reasonswhy}}{{dark}}{{daybreak}}" (click)="close()">
+        <ion-icon slot="start" name="play"></ion-icon>
+        Lecture
+      </ion-button>
+
+      <p class="description">
+        {{description0}}{{description1}}{{description2}}{{description3}}
+        {{description4}}{{description5}}{{description6}}{{description7}}
+        {{description8}}{{description9}}{{description10}}
+        {{description11}}{{description12}}{{description13}}
+        {{description14}}{{description15}}{{description16}}
+        {{description18}}{{description19}}
+      </p>
+      <p class="distribution">Distribution : 
+        {{distribution0}}{{distribution1}}{{distribution2}}
+        {{distribution3}}{{distribution4}}{{distribution5}}
+        {{distribution6}}{{distribution7}}{{distribution8}}
+        {{distribution9}}{{distribution10}}{{distribution11}}
+        {{distribution12}}{{distribution13}}{{distribution14}}
+        {{distribution15}}{{distribution16}}{{distribution17}}
+        {{distribution18}}{{distribution19}}
+      </p>
+      <p class="createur">Créateurs : 
+        {{createur0}}{{createur1}}{{createur2}}{{createur3}}
+        {{createur4}}{{createur5}}{{createur6}}{{createur7}}
+        {{createur8}}{{createur9}}{{createur10}}
+        {{createur11}}{{createur12}}{{createur13}}
+        {{createur14}}{{createur15}}{{createur16}}
+        {{createur17}}{{createur18}}{{createur19}}
+      </p>
+      <ion-segment color="duckflix-red">
+        <ion-segment-button value="liste" checked>
+          <ion-icon color="light" name="md-add"></ion-icon>
+          <ion-label class="labelbar" color="light">Ma liste</ion-label>
+        </ion-segment-button>
+        <ion-segment-button color="light" value="rate">
+          <ion-icon color="light" name="thumbs-up"></ion-icon>
+          <ion-label class="labelbar" color="light">Évaluer</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="share">
+          <ion-icon color="light" name="ios-send"></ion-icon>
+          <ion-label class="labelbar" color="light">Partager</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+      <h4>ÉPISODES</h4>
+      <ion-item-group>
+        <ion-item >
+          <ion-avatar slot="start">
+            <img src="{{imgep1_0}}{{imgep1_1}}{{imgep1_2}}{{imgep1_3}}{{imgep1_4}}{{imgep1_5}}{{imgep1_6}}{{imgep1_7}}{{imgep1_8}}{{imgep1_9}}{{imgep1_10}}{{imgep1_11}}{{imgep1_12}}{{imgep1_13}}{{imgep1_14}}{{imgep1_15}}{{imgep1_16}}{{imgep1_17}}{{imgep1_18}}{{imgep1_19}}">
+          </ion-avatar>
+          <ion-label class="episodes ion-text-wrap" color="light">
+            {{ep1_0}}{{ep1_1}}{{ep1_2}}{{ep1_3}}
+            {{ep1_4}}{{ep1_5}}{{ep1_6}}{{ep1_7}}
+            {{ep1_8}}{{ep1_9}}{{ep1_10}}{{ep1_11}}
+            {{ep1_12}}{{ep1_13}}{{ep1_14}}{{ep1_15}}
+            {{ep1_16}}{{ep1_17}}{{ep1_18}}{{ep1_19}}
+            <p class="duree">
+              {{tpsep1_0}}{{tpsep1_1}}{{tpsep1_2}}{{tpsep1_3}}
+              {{tpsep1_4}}{{tpsep1_5}}{{tpsep1_6}}{{tpsep1_7}}
+              {{tpsep1_8}}{{tpsep1_9}}{{tpsep1_10}}{{tpsep1_11}}
+              {{tpsep1_12}}{{tpsep1_13}}{{tpsep1_14}}{{tpsep1_15}}
+              {{tpsep1_16}}{{tpsep1_17}}{{tpsep1_18}}{{tpsep1_19}}
+            </p>
+          </ion-label>
+
+          <ion-icon color="light" slot="end" name="download"></ion-icon>
+        </ion-item>
+        <p class="resume">
+          {{resep1_0}}{{resep1_1}}{{resep1_2}}{{resep1_3}}{{resep1_4}}
+          {{resep1_5}}{{resep1_6}}{{resep1_7}}{{resep1_8}}{{resep1_9}}
+          {{resep1_10}}{{resep1_11}}{{resep1_12}}{{resep1_13}}
+          {{resep1_14}}{{resep1_15}}{{resep1_16}}{{resep1_17}}
+          {{resep1_18}}{{resep1_19}}
+        </p>
+      </ion-item-group>
+
+      <ion-item-group>
+        <ion-item >
+          <ion-avatar slot="start">
+            <img src="{{imgep2_0}}{{imgep2_1}}{{imgep2_2}}{{imgep2_3}}{{imgep2_4}}{{imgep2_5}}{{imgep2_6}}{{imgep2_7}}{{imgep2_8}}{{imgep2_9}}{{imgep2_10}}{{imgep2_11}}{{imgep2_12}}{{imgep2_13}}{{imgep2_14}}{{imgep2_15}}{{imgep2_16}}{{imgep2_17}}{{imgep2_18}}{{imgep2_19}}">
+          </ion-avatar>
+          <ion-label class="episodes" color="light" text-wrap>
+            {{ep2_0}}{{ep2_1}}{{ep2_2}}{{ep2_3}}{{ep2_4}}{{ep2_5}}
+            {{ep2_6}}{{ep2_7}}{{ep2_8}}{{ep2_9}}
+            {{ep2_10}}{{ep2_11}}{{ep2_12}}
+            {{ep2_13}}{{ep2_14}}{{ep2_15}}{{ep2_16}}
+            {{ep2_17}}{{ep2_18}}{{ep2_19}}
+            <p class="duree">
+              {{tpsep2_0}}{{tpsep2_1}}{{tpsep2_2}}{{tpsep2_3}}
+              {{tpsep2_4}}{{tpsep2_5}}{{tpsep2_6}}{{tpsep2_7}}
+              {{tpsep2_8}}{{tpsep2_9}}{{tpsep2_10}}{{tpsep2_11}}
+              {{tpsep2_12}}{{tpsep2_13}}{{tpsep2_14}}
+              {{tpsep2_15}}{{tpsep2_16}}{{tpsep2_17}}
+              {{tpsep2_18}}{{tpsep2_19}}
+            </p>
+          </ion-label>
+
+        <ion-icon color="light" slot="end" name="download"></ion-icon>
+      </ion-item>
+      <p class="resume">
+        {{resep2_0}}{{resep2_1}}{{resep2_2}}{{resep2_3}}
+        {{resep2_4}}{{resep2_5}}{{resep2_6}}{{resep2_7}}
+        {{resep2_8}}{{resep2_9}}{{resep2_10}}{{resep2_11}}
+        {{resep2_12}}{{resep2_13}}{{resep2_14}}{{resep2_15}}
+        {{resep2_16}}{{resep2_17}}{{resep2_18}}{{resep2_19}}
+      </p>
+    </ion-item-group>
+  </div>
+</ion-content>

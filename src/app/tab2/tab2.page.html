@@ -1,9 +1,37 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
+  <ion-toolbar color="duckflix-dark">
+    <ion-searchbar
+    [(ngModel)]="searchTerm"
+    (ionChange)="setFilteredImages()" placeholder="Rechercher" color="dark"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content class="ion-padding">
+  <div class="scroll-box">
+    <ng-container *ngIf="images">
+      <div class="movie" *ngFor="let image of images">
+        <p class="affiche" *ngIf="image.id == 0"><img (click)="searchMovie0()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 1"><img (click)="searchMovie1()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 2"><img (click)="searchMovie2()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 3"><img (click)="searchMovie3()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 4"><img (click)="searchMovie4()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 5"><img (click)="searchMovie5()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 6"><img (click)="searchMovie6()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 7"><img (click)="searchMovie7()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 8"><img (click)="searchMovie8()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 9"><img (click)="searchMovie9()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 10"><img (click)="searchMovie10()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 11"><img (click)="searchMovie11()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 12"><img (click)="searchMovie12()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 13"><img (click)="searchMovie13()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 14"><img (click)="searchMovie14()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 15"><img (click)="searchMovie15()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 16"><img (click)="searchMovie16()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 17"><img (click)="searchMovie17()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 18"><img (click)="searchMovie18()" [src]="image.url"/></p>
+        <p class="affiche" *ngIf="image.id == 19"><img (click)="searchMovie19()" [src]="image.url"/></p>
+      </div>
+    </ng-container>
+  </div>
+  
+</ion-content>
